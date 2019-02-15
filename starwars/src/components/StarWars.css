@@ -1,9 +1,40 @@
+:root {
+
+}
+
 .card {
-  background-color: white;
   display: flex;
   flex-direction: column;
   list-style: none;
   margin: 10px 0 10px 0; 
-  padding: 20px;
+  padding: 10px;
   min-width: 40%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 10px;
+  background-color: #42597b;
+}
+
+.card h3 {
+  font-size: 2rem;
+  background-color: #efb27a;
+  color: white;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  border-radius: 5px 5px 0px 0px;
+}
+
+ul {
+  background-color: red;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 0px 0px 5px 5px;
+}
+
+li {
+  list-style: none;
 }
